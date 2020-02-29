@@ -1,0 +1,151 @@
+{
+  "profile": {
+    "coverImage": "/static/images/profile/cover.jpg",
+    "coverText": "JIN TAEYANG'S Portfolio",
+    "image": "/static/images/profile/profile_image.jpg",
+    "image_cp": "https://meeta.io/_nuxt/img/e528a7e.png",
+    "name": "진태양",
+    "desc": "Student",
+    "email": "keriel@jupiterflow.com",
+    "work": "Inactive",
+    "phone": "Private"
+  },
+  "left": {
+    "social": [
+      {
+        "ico": "/static/images/profile/github-ico.png",
+        "url": "https://github.com/JupiterFlow"
+      },
+      {
+        "ico": "/static/images/profile/blog-ico.png",
+        "url": "https://blog.jupiterflow.com"
+      }
+    ],
+    "info": "JupiterFlow.com을 운영중인 진태양입니다.\r\n블로그에서는 프로그래밍과 관련된 이슈, 정보, 기술 등을 다루고있습니다.\r\nReact-Django를 통한 Full-stack 개발자로 거듭나고자 합니다.",
+    "career": [],
+    "career_cp": [
+      {
+        "company": "JupiterFlow",
+        "job": "대표",
+        "period": "2020년 02월 01일 ~ 현재",
+        "desc": "현재 JupiterFlow Service에서 학습 중"
+      }
+    ],
+    "education": [
+      {
+        "company": "영남이공대학교",
+        "job": "컴퓨터공학 전문학사",
+        "period": "2019년 03월 01일 ~ 2022년 02월 00일"
+      }
+    ]
+  },
+  "content": {
+    "stack_filter": [
+      "C",
+      "Node.js",
+      "Express",
+      "PHP",
+      "JAVA",
+      "RestAPI",
+      "Arduino",
+      "MariaDB"
+    ],
+    "project": {
+      "count": 5,
+      "data": [
+        {
+          "subject": "HTML5 Delivery Tracker",
+          "desc": "설명 테스트 :: HTML5 Delivery Tracker",
+          "markdown": "",
+          "img": [
+            "/static/images/project/1/000.png"
+          ],
+          "period": "2019년 05월 22일 ~ 2019년 06월 13일",
+          "progress": "개발완료(지원중단)",
+          "stack": [
+            "HTML5",
+            "ajax",
+            "PHP",
+            "RestAPI",
+            "MariaDB"
+          ]
+        },
+        {
+          "subject": "스마트 사이니지 API & Interface",
+          "desc": "설명 테스트 :: 스마트 사이니지 API & Interface",
+          "markdown": "",
+          "img": [
+            "/static/images/project/2/000.jpg",
+            "/static/images/project/2/001.jpg",
+            "/static/images/project/2/002.jpg"
+          ],
+          "period": "2019년 07월 23일 ~ 2019년 09월 15일",
+          "progress": "개발완료",
+          "stack": [
+            "JAVA",
+            "jersey",
+            "RestAPI",
+            "MariaDB"
+          ]
+        },
+        {
+          "subject": "PIRARE(Pinterest semi clone with PHP)",
+          "desc": "설명 테스트 :: PIRARE(Pinterest semi clone with PHP)",
+          "markdown": "",
+          "img": [
+            "/static/images/project/3/000.png"
+          ],
+          "period": "2019년 10월 14일 ~ 2019년 11월 26일",
+          "progress": "상용화",
+          "stack": [
+            "HTML5",
+            "ajax",
+            "jQuery",
+            "PHP",
+            "MariaDB"
+          ]
+        },
+        {
+          "subject": "스마트 공기 청정기 지니",
+          "desc": "설명 테스트 :: 스마트 공기 청정기 지니",
+          "markdown": "https://raw.githubusercontent.com/JupiterFlow/nodeMCU_air-purifier/master/README.md",
+          "img": [
+            "/static/images/project/4/000.png"
+          ],
+          "period": "2020년 02월 04일 ~ 2020년 02월 21일",
+          "progress": "개발완료",
+          "stack": [
+            "Arduino",
+            "Node.js",
+            "Express",
+            "MariaDB",
+            "RestAPI"
+          ]
+        },
+        {
+          "subject": "Pokemon",
+          "desc": "설명 테스트 :: Pokemon",
+          "markdown": "",
+          "img": [
+            "/static/images/project/5/000.png"
+          ],
+          "period": "2020년 02월 25일 ~ 현재",
+          "progress": "개발중",
+          "stack": [
+            "C",
+            "Allegro5",
+            "winsock2",
+            "MariaDB"
+          ]
+        }
+      ]
+    },
+    "author": [
+      {
+        "subject": "JupiterFlow BLOG",
+        "img": "/static/images/jupiter.png",
+        "url": "//blog.jupiterflow.com"
+      }
+    ]
+  }
+}

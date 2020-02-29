@@ -1,0 +1,18 @@
+{
+  "scheme": {
+    "C": "gray",
+    "Allegro5": "gray",
+    "winsock2": "gray",
+    "MariaDB": "#003545",
+    "HTML5": "red",
+    "ajax": "blue",
+    "PHP": "green",
+    "RestAPI": "yellow",
+    "JAVA": "orange",
+    "jersey": "brown",
+    "jQuery": "#0769ad",
+    "Arduino": "black",
+    "Node.js": "#026e00",
+    "Express": "#55f7e8"
+  }
+}
