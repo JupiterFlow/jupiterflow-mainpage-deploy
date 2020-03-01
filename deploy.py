@@ -4,18 +4,19 @@ import json
 import pysftp
 
 
-def put_dir_rec(local_folder, remote_folder):
-    with pysftp.cd(local_folder):
-        sftp.cwd(remote_folder)
-        for folderItem in os.listdir('.'):
-            if os.path.isfile(os.path.join(local_folder, folderItem)):
-                print("fileUpload :", os.path.join(local_folder, folderItem))
-                sftp.put(os.path.join(local_folder, folderItem), '%s/%s' % (remote_folder, folderItem),
-                         preserve_mtime=True)
-            else:
-                if not sftp.exists('%s/%s' % (remote_folder, folderItem)):
-                    sftp.mkdir('%s/%s' % (remote_folder, folderItem))
-                put_dir_rec(os.path.join(local_folder, folderItem), '%s/%s' % (remote_folder, folderItem))
+def put_r_portable(sftp_self, localdir, remotedir, preserve_mtime=False):
+    for entry in os.listdir(localdir):
+        remotepath = remotedir + "/" + entry
+        localpath = os.path.join(localdir, entry)
+        if not os.path.isfile(localpath):
+            try:
+                sftp_self.mkdir(remotepath)
+            except OSError:
+                pass
+            put_r_portable(sftp_self, localpath, remotepath, preserve_mtime)
+        else:
+            print("fileUpload :", localpath)
+            sftp_self.put(localpath, remotepath, preserve_mtime=preserve_mtime)
 
 
 with open('_config/configure.json') as f:
@@ -58,5 +59,4 @@ for idx, project in enumerate(projectData):
 
 with pysftp.Connection(host=sftp_hostname, username=sftp_username, private_key=sftp_privkey) as sftp:
     print("Connection succesfully stablished ... ")
-
-    put_dir_rec(os.path.join(os.getcwd(), 'data'), '/home/jupiterflow/app/mainpage/data')
+    put_r_portable(sftp, os.path.join(os.getcwd(), 'data'), '/home/jupiterflow/app/mainpage/data', True)
