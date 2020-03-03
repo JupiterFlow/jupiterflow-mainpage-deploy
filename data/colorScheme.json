@@ -13,6 +13,7 @@
     "jQuery": "#0769ad",
     "Arduino": "black",
     "Node.js": "#026e00",
-    "Express": "#55f7e8"
+    "Express": "#55f7e8",
+    "Pug": "#7b3300"
   }
 }

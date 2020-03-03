@@ -3,7 +3,6 @@
     "coverImage": "/static/images/profile/cover.jpg",
     "coverText": "JIN TAEYANG'S Portfolio",
     "image": "/static/images/profile/profile_image.jpg",
-    "image_cp": "https://meeta.io/_nuxt/img/e528a7e.png",
     "name": "진태양",
     "desc": "Student",
     "email": "keriel@jupiterflow.com",
@@ -22,7 +21,9 @@
       }
     ],
     "info": "JupiterFlow.com을 운영중인 진태양입니다.\r\n블로그에서는 프로그래밍과 관련된 이슈, 정보, 기술 등을 다루고있습니다.\r\nReact-Django를 통한 Full-stack 개발자로 거듭나고자 합니다.",
-    "career": [],
+    "career": [
+
+    ],
     "career_cp": [
       {
         "company": "JupiterFlow",
@@ -32,6 +33,8 @@
       }
     ],
     "education": [
+    ],
+    "education_cp": [
       {
         "company": "영남이공대학교",
         "job": "컴퓨터공학 전문학사",
@@ -55,8 +58,8 @@
       "data": [
         {
           "subject": "HTML5 Delivery Tracker",
-          "desc": "설명 테스트 :: HTML5 Delivery Tracker",
-          "markdown": "",
+          "desc": "이 프로젝트는 영남이공대학교 컴퓨터정보과 2019학년도 1학년 1학기 HTML5/CSS3 기말 실기시험(프로젝트 제작 및 발표) 평가를 위해 제작된 프로젝트입니다.",
+          "markdown": "https://raw.githubusercontent.com/JupiterFlow/html5_ync_delivery-tracker/master/README.md",
           "img": [
             "/static/images/project/1/000.png"
           ],
@@ -73,7 +76,7 @@
         {
           "subject": "스마트 사이니지 API & Interface",
           "desc": "설명 테스트 :: 스마트 사이니지 API & Interface",
-          "markdown": "",
+          "markdown": "https://raw.githubusercontent.com/JupiterFlow/icms/master/README.md",
           "img": [
             "/static/images/project/2/000.jpg",
             "/static/images/project/2/001.jpg",
@@ -118,6 +121,7 @@
             "Arduino",
             "Node.js",
             "Express",
+            "Pug",
             "MariaDB",
             "RestAPI"
           ]
@@ -140,11 +144,16 @@
         }
       ]
     },
-    "author": [
+    "post": [
       {
         "subject": "JupiterFlow BLOG",
         "img": "/static/images/jupiter.png",
         "url": "//blog.jupiterflow.com"
+      },
+      {
+        "subject": "NAVER 지식iN",
+        "img": "/static/images/sdn.png",
+        "url": "//kin.naver.com/profile/index.nhn?u=%2FABXPKGzDSxT1ntlABi1abcMhL8jw2LzRs6sb8WE3NQ%3D"
       }
     ]
   }
